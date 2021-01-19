@@ -22,10 +22,9 @@ import org.w3c.dom.Node;
 public class XmlWriter {
 	private static Document doc;
 
-//	public static void main(String[] args) {
-//		createXmlFile();
-//	}
-
+	/**
+	 * Method called by the Postman (main class) that creates the testng.xml file from command line params
+	 */
 	public static void createXmlFile() {
 
 		// get props
@@ -58,7 +57,6 @@ public class XmlWriter {
 			doc = docBuilder.newDocument();
 			
 			Element suiteElement = addSuite(testName, "3", parallel, threadCount, dataProviderThreadCount, configFailurePolicy);
-//			Element listener = addListener(suiteElement);
 
 			// build per browser type
 			for(int i = 0; i < browsers.length; i++) {
@@ -141,16 +139,6 @@ public class XmlWriter {
 		doc.appendChild(rootElement);
 		return rootElement;
 	}
-
-//	private static String customListener = "com.sprint.iice_tests.utilities.test_util.CustomListener";
-//	private static Element addListener(Element element){
-//		Element listenerElement = doc.createElement("listeners");
-//		Element rootElement = doc.createElement("listener");
-//		rootElement.setAttribute("class-name",customListener);
-//		listenerElement.appendChild(rootElement);
-//		element.appendChild(listenerElement);
-//		return listenerElement;
-//	}
 
 	/**
 	 * Add the test tag and attributes.

@@ -8,14 +8,26 @@ import org.openqa.selenium.By;
 
 public class YourWorkspaces extends HomeTabPage {
 
+	//By elements
 	private By lsWorkspaces = By.cssSelector("body > div.app-root > div > div > main > div > ol");
 	private By btnNewWorkspace = By.xpath("//a/div[contains(text(),'New workspace')]");
 	
+	//Methods
+	/**
+	 * @author Sean Trego
+	 * Method is used to click the create new workspace button
+	 * @return CreateWorkspace instance.
+	 */
 	public CreateWorkspace clickNewWorkspace() {
 		clickButton(btnNewWorkspace);
 		return new CreateWorkspace();
 	}
 	
+	/**
+	 * @author Sean Trego
+	 * Method is used to return the list of workspaces on the yourworkspaces page.
+	 * @return list of workspaces
+	 */
 	public List<String> getExtWorkspaceList(){	
 		return Arrays.asList(getElement(lsWorkspaces)
 				.getText()

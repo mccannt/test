@@ -7,31 +7,31 @@ import org.apache.logging.log4j.Logger;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import com.postman.test.data.TestData;
 import com.postman.test.pom.CreateWorkspace;
 import com.postman.test.pom.LoginPage;
 import com.postman.test.pom.Workspace;
 import com.postman.test.pom.YourWorkspaces;
+import com.postman.test.util.JsonParser;
 
 public class SeleniumTest extends BaseTest {
 	
 	private static final Logger LOGGER = LogManager.getLogger(MethodHandles.lookup().lookupClass());
-	private final String newWorkspaceName = "Sean New Workspace";
-	private final String newWorkspaceSummary = "Sean New Workspace Summary";
-	private final String newWorkspaceVisability = "Personal";
-	private final String updateWorkspaceName = "Sean Updated Workspace";
-	private final String updateWorkspaceSummary = "Sean Updated Summary";
-	private final String updateWorkspaceDescription = "Sean Updated Description";
+	private final String testDataPath = "src/test/resources/TestData.json";
 	
 	LoginPage loginPage;
 	YourWorkspaces yourWorkspaces;
 	CreateWorkspace createWorkspace;
 	Workspace workspace;
+	TestData testData;
 	
 	
 	@BeforeMethod(enabled=true, alwaysRun=true)
 	public void logIn() {
 		LOGGER.info("Logging into Postman.");
 		loginPage = new LoginPage();
+		testData = (TestData) JsonParser.readData(testDataPath, TestData.class);
+		LOGGER.info("Here is the test data: " + testData.toString());
 		LOGGER.info("Entering email or username.");
 		loginPage.enterEmailOrUsername();
 		LOGGER.info("Entering password.");
@@ -45,18 +45,16 @@ public class SeleniumTest extends BaseTest {
 		LOGGER.info("Start of Creating New Personal Workspace Test.");
 		LOGGER.info("Click Creating New Personal Workspace");
 		createWorkspace = yourWorkspaces.clickCreateNewWorkspaceFromDropdown();
-		LOGGER.info("Enter New Workspace Name: " + newWorkspaceName);
-		createWorkspace.enterName(newWorkspaceName);
-		LOGGER.info("Enter New Workspace Summary: " + newWorkspaceSummary);
-		createWorkspace.enterSummary(newWorkspaceSummary);
-		LOGGER.info("Enter New Workspace Visability: " + newWorkspaceVisability);
-		createWorkspace.selectVisability(newWorkspaceVisability);
+		LOGGER.info("Enter New Workspace Name: " + testData.getNewWorkspaceName());
+		createWorkspace.enterName(testData.getNewWorkspaceName());
+		LOGGER.info("Enter New Workspace Summary: " + testData.getNewWorkspaceSummary());
+		createWorkspace.enterSummary(testData.getNewWorkspaceSummary());
+		LOGGER.info("Enter New Workspace Visability: " + testData.getNewWorkspaceVisability());
+		createWorkspace.selectVisability(testData.getNewWorkspaceVisability());
 		LOGGER.info("Click Create Workspace.");
 		createWorkspace.clickCreateWorkspaceButton();
 		LOGGER.info("And I log out of the application.");
-		createWorkspace.clickAvatar();
-		createWorkspace.clickSignOut();
-		createWorkspace.approveSignOut();
+		createWorkspace.signOut();
 		LOGGER.info("End of test.");
 	}
 	
@@ -71,9 +69,7 @@ public class SeleniumTest extends BaseTest {
 		LOGGER.info("And I review my workspace list from Your Workspace.");
 		yourWorkspaces.getExtWorkspaceList().stream().forEach(System.out::println);
 		LOGGER.info("And I log out of the application.");
-		yourWorkspaces.clickAvatar();
-		yourWorkspaces.clickSignOut();
-		yourWorkspaces.approveSignOut();
+		yourWorkspaces.signOut();
 		LOGGER.info("End of test.");
 	}
 	
@@ -81,17 +77,15 @@ public class SeleniumTest extends BaseTest {
 	public void testUpdateWorkspace() {
 		LOGGER.info("Start of Updating Workspace Test.");
 		LOGGER.info("And I select my newly created workspace from the dropdown list.");
-		workspace = yourWorkspaces.selectWorkspaceByName(newWorkspaceName);
-		LOGGER.info("And I enter the updated workspace name: " + updateWorkspaceName);
-		workspace.updateWorkspaceName(updateWorkspaceName);
-		LOGGER.info("And I enter the updated workspace summary: " + updateWorkspaceSummary);
-		workspace.updateWorkspaceSummary(updateWorkspaceSummary);
-		LOGGER.info("And I enter the updated workspace description: " + updateWorkspaceDescription);
-		workspace.updateWorkspaceDescription(updateWorkspaceDescription);
+		workspace = yourWorkspaces.selectWorkspaceByName(testData.getNewWorkspaceName());
+		LOGGER.info("And I enter the updated workspace name: " + testData.getUpdateWorkspaceName());
+		workspace.updateWorkspaceName(testData.getUpdateWorkspaceName());
+		LOGGER.info("And I enter the updated workspace summary: " + testData.getUpdateWorkspaceSummary());
+		workspace.updateWorkspaceSummary(testData.getUpdateWorkspaceSummary());
+		LOGGER.info("And I enter the updated workspace description: " + testData.getUpdateWorkspaceDescription());
+		workspace.updateWorkspaceDescription(testData.getUpdateWorkspaceDescription());
 		LOGGER.info("And I log out of the application.");
-		workspace.clickAvatar();
-		workspace.clickSignOut();
-		createWorkspace.approveSignOut();
+		workspace.signOut();
 		LOGGER.info("End of test.");
 	}
 	
@@ -99,12 +93,10 @@ public class SeleniumTest extends BaseTest {
 	public void testDeleteWorkspace() {
 		LOGGER.info("Start of Deleting Workspace Test.");
 		LOGGER.info("And I delete the workspace.");
-		yourWorkspaces.deleteWorkspaceByName(updateWorkspaceName);
+		yourWorkspaces.deleteWorkspaceByName(testData.getUpdateWorkspaceName());
 		yourWorkspaces.clickPopupDeleteButton();
 		LOGGER.info("And I log out of the application.");
-		yourWorkspaces.clickAvatar();
-		yourWorkspaces.clickSignOut();
-		yourWorkspaces.approveSignOut();
+		yourWorkspaces.signOut();
 		LOGGER.info("End of test.");
 	}
 

@@ -5,6 +5,7 @@ import org.openqa.selenium.Keys;
 
 public class Workspace extends HomeTabPage {
 	
+	//By elements
 	private By btnEditWorkspaceName = By.cssSelector("body > div.app-root > div > div > div.pane-group.vertical > div:nth-child(1) > div.pane.resizableX.resizableY.requester-contents-pane > div > div > div > div:nth-child(2) > div > div > div > div.requester-tab-contents > div > div > div > div.ws-header > header > div > i");
 	private By iEditWorkspaceName = By.cssSelector("body > div.app-root > div > div > div.pane-group.vertical > div:nth-child(1) > div.pane.resizableX.resizableY.requester-contents-pane > div > div > div > div:nth-child(2) > div > div > div > div.requester-tab-contents > div > div > div > div.ws-header > header > div");
 	private By btnEditWorkspaceSummary = By.cssSelector("body > div.app-root > div > div > div.pane-group.vertical > div:nth-child(1) > div.pane.resizableX.resizableY.requester-contents-pane > div > div > div > div:nth-child(2) > div > div > div > div.requester-tab-contents > div > div > div > div.ws-content-area > div > div.ws-meta > div > div.ws-meta-summary > div > i");
@@ -13,6 +14,12 @@ public class Workspace extends HomeTabPage {
 	private By iEditWorkspaceDescription = By.cssSelector("body > div.app-root > div > div > div.pane-group.vertical > div:nth-child(1) > div.pane.resizableX.resizableY.requester-contents-pane > div > div > div > div:nth-child(2) > div > div > div > div.requester-tab-contents > div > div > div > div.ws-content-area > div > div.ws-meta > div > div.ws-meta-description > div > div > div > div.inline-editor__text-editor-body.text-editor-wrapper > div > div > div > div.overflow-guard > div.monaco-scrollable-element.editor-scrollable.vs > div.lines-content.monaco-editor-background > div.view-lines");
 	private By btnEditWorkspaceDescriptionSave = By.xpath("//div[@class='btn btn-primary btn-small inline-editor__update-button']");
 	
+	//Methods
+	/**
+	 * @author Sean Trego
+	 * Method is used to update the workspace name with a value.
+	 * @param value
+	 */
 	public void updateWorkspaceName(String value) {
 		createActions(btnEditWorkspaceName).click().build().perform();
 		createActions(iEditWorkspaceName)
@@ -24,6 +31,11 @@ public class Workspace extends HomeTabPage {
 			.perform();
 	}
 	
+	/**
+	 * @author Sean Trego
+	 * Method is used to update the workspace summary with a value.
+	 * @param value
+	 */
 	public void updateWorkspaceSummary(String value) {
 		createActions(btnEditWorkspaceSummary).click().build().perform();
 		createActions(iEditWorkspaceSummary)
@@ -35,6 +47,11 @@ public class Workspace extends HomeTabPage {
 			.perform();
 	}
 	
+	/**
+	 * @author Sean Trego
+	 * Method is used to update the workspace description with a value.
+	 * @param value
+	 */
 	public void updateWorkspaceDescription(String value) {
 		createActions(btnEditWorkspaceDescription).click().build().perform();
 		createActions(iEditWorkspaceDescription)
