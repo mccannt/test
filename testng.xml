@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" name="Postman Tests" parallel="false" thread-count="1" verbose="3">
+    <test name="Postman Tests - chrome">
+        <parameter name="browser" value="chrome"/>
+        <packages>
+            <package name="com.postman.test.selenium"/>
+        </packages>
+    </test>
+</suite>

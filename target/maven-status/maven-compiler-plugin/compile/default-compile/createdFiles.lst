@@ -1,0 +1,10 @@
+com\postman\test\pom\HomeTabPage.class
+com\postman\main\Postman.class
+com\postman\test\web\Browser.class
+com\postman\main\XmlWriter.class
+com\postman\test\pom\CreateWorkspace.class
+com\postman\test\pom\BasePage.class
+com\postman\test\pom\Workspace.class
+com\postman\test\pom\YourWorkspaces.class
+com\postman\test\util\Config.class
+com\postman\test\pom\LoginPage.class

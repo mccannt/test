@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Postman Tests" duration-ms="46592" started-at="2021-01-18T19:57:19 CST" finished-at="2021-01-18T19:58:06 CST">
+    <groups>
+    </groups>
+    <test name="Postman Tests - chrome" duration-ms="46592" started-at="2021-01-18T19:57:19 CST" finished-at="2021-01-18T19:58:06 CST">
+      <class name="com.postman.test.selenium.BaseTest">
+        <test-method status="PASS" signature="suiteRun()[pri:0, instance:com.postman.test.selenium.BaseTest@33d28f0a]" name="suiteRun" is-config="true" duration-ms="6505" started-at="2021-01-18T19:57:13 CST" finished-at="2021-01-18T19:57:19 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteRun -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.postman.test.selenium.BaseTest@33d28f0a]" name="tearDown" is-config="true" duration-ms="856" started-at="2021-01-18T19:58:06 CST" finished-at="2021-01-18T19:58:07 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.postman.test.selenium.BaseTest -->
+      <class name="com.postman.test.selenium.SeleniumTest">
+        <test-method status="PASS" signature="logIn()[pri:0, instance:com.postman.test.selenium.SeleniumTest@5a592c70]" name="logIn" is-config="true" duration-ms="6318" started-at="2021-01-18T19:57:19 CST" finished-at="2021-01-18T19:57:26 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="testCreateNewPersonalWorkspace()[pri:1, instance:com.postman.test.selenium.SeleniumTest@5a592c70]" name="testCreateNewPersonalWorkspace" duration-ms="7808" started-at="2021-01-18T19:57:26 CST" finished-at="2021-01-18T19:57:34 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewPersonalWorkspace -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:com.postman.test.selenium.SeleniumTest@5a592c70]" name="logIn" is-config="true" duration-ms="6735" started-at="2021-01-18T19:57:34 CST" finished-at="2021-01-18T19:57:40 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="testReturnWorkspaceList()[pri:0, instance:com.postman.test.selenium.SeleniumTest@5a592c70]" name="testReturnWorkspaceList" duration-ms="4834" started-at="2021-01-18T19:57:40 CST" depends-on-methods="com.postman.test.selenium.SeleniumTest.testCreateNewPersonalWorkspace" finished-at="2021-01-18T19:57:45 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReturnWorkspaceList -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:com.postman.test.selenium.SeleniumTest@5a592c70]" name="logIn" is-config="true" duration-ms="6623" started-at="2021-01-18T19:57:45 CST" finished-at="2021-01-18T19:57:52 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="testUpdateWorkspace()[pri:0, instance:com.postman.test.selenium.SeleniumTest@5a592c70]" name="testUpdateWorkspace" duration-ms="5658" started-at="2021-01-18T19:57:52 CST" depends-on-methods="com.postman.test.selenium.SeleniumTest.testReturnWorkspaceList" finished-at="2021-01-18T19:57:57 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateWorkspace -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:com.postman.test.selenium.SeleniumTest@5a592c70]" name="logIn" is-config="true" duration-ms="6505" started-at="2021-01-18T19:57:57 CST" finished-at="2021-01-18T19:58:04 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="testDeleteWorkspace()[pri:0, instance:com.postman.test.selenium.SeleniumTest@5a592c70]" name="testDeleteWorkspace" duration-ms="2074" started-at="2021-01-18T19:58:04 CST" depends-on-methods="com.postman.test.selenium.SeleniumTest.testUpdateWorkspace" finished-at="2021-01-18T19:58:06 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteWorkspace -->
+      </class> <!-- com.postman.test.selenium.SeleniumTest -->
+    </test> <!-- Postman Tests - chrome -->
+  </suite> <!-- Postman Tests -->
+</testng-results>
