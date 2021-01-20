@@ -129,6 +129,7 @@ public class HomeTabPage extends BasePage {
 				break;
 			case "firefox":
 				hold(2);
+				waitUntilPageLoads();
 				clickButton(btnAvator);
 				break;
 			default:

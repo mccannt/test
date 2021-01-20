@@ -38,6 +38,7 @@ public class LoginPage extends HomeTabPage {
 	public YourWorkspaces clickSignIn() {
 		clickButton(btnSignIn);
 		hold(5);
+		waitUntilPageLoads();
 		return new YourWorkspaces();
 	}
 

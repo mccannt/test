@@ -100,6 +100,7 @@ public class Workspace extends HomeTabPage {
 			break;
 		case "firefox":
 			createActions(btnEditWorkspaceDescription).click().build().perform();
+			waitUntilPageLoads();
 			createActions(iEditWorkspaceDescription)
 				.clickAndHold()
 				.sendKeys(Keys.DELETE)
@@ -122,6 +123,7 @@ public class Workspace extends HomeTabPage {
 	 */
 	public String getCreateARequestText() {
 		hold(3);
+		waitUntilPageLoads();
 		return getText(btnCreateARequest);
 	}
 	
