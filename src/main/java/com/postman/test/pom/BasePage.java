@@ -139,6 +139,17 @@ public class BasePage {
 	
 	/**
 	 * @author Sean Trego
+	 * Method takes a list of string and verifies that specific text is located
+	 * @param list
+	 * @param text
+	 * @return Boolean
+	 */
+	public Boolean verifyTextInList(List<String> list, String text) {
+		return list.stream().anyMatch(x -> x.equals(text));
+	}
+	
+	/**
+	 * @author Sean Trego
 	 * Method that waits until the element is present.
 	 * @param by
 	 */

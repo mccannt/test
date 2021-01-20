@@ -6,5 +6,7 @@ com\postman\test\pom\CreateWorkspace.class
 com\postman\test\pom\BasePage.class
 com\postman\test\pom\Workspace.class
 com\postman\test\pom\YourWorkspaces.class
+com\postman\test\data\TestData.class
 com\postman\test\util\Config.class
+com\postman\test\util\JsonParser.class
 com\postman\test\pom\LoginPage.class

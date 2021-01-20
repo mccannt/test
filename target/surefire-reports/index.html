@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Postman_Tests">
-              <span class="suite-name border-passed">Postman Tests</span>
+              <span class="suite-name border-failed">Postman Tests</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Postman_Tests">
-                    <span>C:\Users\strego\app\dev2\test\testng.xml</span>
+                    <span>C:\Users\strego\git\test\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Postman_Tests" class="hide-methods failed suite-Postman_Tests"> (hide)</a> <!-- hide-methods failed suite-Postman_Tests -->
+                      <a href="#" panel-name="suite-Postman_Tests" class="show-methods failed suite-Postman_Tests"> (show)</a> <!-- show-methods failed suite-Postman_Tests -->
+                    </span>
+                    <div class="method-list-content failed suite-Postman_Tests">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Postman_Tests" title="com.postman.test.selenium.SeleniumTest" hash-for-method="testDeleteWorkspace">testDeleteWorkspace</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Postman_Tests -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,11 +117,6 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Postman_Tests" title="com.postman.test.selenium.SeleniumTest" hash-for-method="testCreateNewPersonalWorkspace">testCreateNewPersonalWorkspace</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Postman_Tests" title="com.postman.test.selenium.SeleniumTest" hash-for-method="testDeleteWorkspace">testDeleteWorkspace</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -132,6 +141,63 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Postman_Tests" class="panel Postman_Tests">
+          <div class="suite-Postman_Tests-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.postman.test.selenium.SeleniumTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteWorkspace">
+                  </a> <!-- testDeleteWorkspace -->
+                  <span class="method-name">testDeleteWorkspace</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;span class=&quot;icon-user-avatar-default pm-user-avatar-icon pm-user-avatar-icon-8 pm-icon-md&quot;&gt; is not clickable at point (1378,24) because another element &lt;div class=&quot;ReactModal__Overlay ReactModal__Overlay--after-open&quot;&gt; obscures it
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MHK-LENOVO1772&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210105180113, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 27948, moz:profile: C:\Users\strego\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f6a6e90a-8b77-4771-bf1c-ec378f6e941e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.postman.test.pom.BasePage.clickButton(BasePage.java:34)
+	at com.postman.test.pom.HomeTabPage.signOut(HomeTabPage.java:149)
+	at com.postman.test.selenium.SeleniumTest.testDeleteWorkspace(SeleniumTest.java:109)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:87)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1132)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:978)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:854)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:154)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:146)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:956)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:290)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:194)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+... Removed 42 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Postman_Tests-class-failed -->
           <div class="suite-Postman_Tests-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -143,13 +209,6 @@
                   <a name="testCreateNewPersonalWorkspace">
                   </a> <!-- testCreateNewPersonalWorkspace -->
                   <span class="method-name">testCreateNewPersonalWorkspace</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testDeleteWorkspace">
-                  </a> <!-- testDeleteWorkspace -->
-                  <span class="method-name">testDeleteWorkspace</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -171,15 +230,15 @@
         </div> <!-- panel Postman_Tests -->
         <div panel-name="test-xml-Postman_Tests" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\strego\app\dev2\test\testng.xml</span>
+            <span class="header-content">C:\Users\strego\git\test\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite thread-count=&quot;1&quot; configfailurepolicy=&quot;continue&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Postman Tests&quot;&gt;
-  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Postman Tests - chrome&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Postman Tests - firefox&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
     &lt;packages&gt;
       &lt;package name=&quot;com.postman.test.selenium&quot;/&gt;
     &lt;/packages&gt;
@@ -187,7 +246,7 @@
       &lt;class name=&quot;com.postman.test.selenium.BaseTest&quot;/&gt;
       &lt;class name=&quot;com.postman.test.selenium.SeleniumTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Postman Tests - chrome --&gt;
+  &lt;/test&gt; &lt;!-- Postman Tests - firefox --&gt;
 &lt;/suite&gt; &lt;!-- Postman Tests --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -199,7 +258,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Postman Tests - chrome (2 classes)</span>
+                <span class="test-name">Postman Tests - firefox (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -229,24 +288,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testCreateNewPersonalWorkspace')
 data.setCell(0, 2, 'com.postman.test.selenium.SeleniumTest')
-data.setCell(0, 3, 7808);
+data.setCell(0, 3, 10156);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testUpdateWorkspace')
 data.setCell(1, 2, 'com.postman.test.selenium.SeleniumTest')
-data.setCell(1, 3, 5658);
+data.setCell(1, 3, 9480);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testReturnWorkspaceList')
 data.setCell(2, 2, 'com.postman.test.selenium.SeleniumTest')
-data.setCell(2, 3, 4834);
+data.setCell(2, 3, 9423);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'testDeleteWorkspace')
 data.setCell(3, 2, 'com.postman.test.selenium.SeleniumTest')
-data.setCell(3, 3, 2074);
+data.setCell(3, 3, 3862);
 window.suiteTableData['Postman_Tests']= { tableData: data, tableDiv: 'times-div-Postman_Tests'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <span class="suite-total-time">Total running time: 32 seconds</span>
               <div id="times-div-Postman_Tests">
               </div> <!-- times-div-Postman_Tests -->
             </div> <!-- times-div -->
@@ -291,42 +350,44 @@ return data;
               <div class="chronological-class-name">com.postman.test.selenium.SeleniumTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">logIn</span>
-                <span class="method-start">6532 ms</span>
+                <span class="method-start">11893 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testCreateNewPersonalWorkspace</span>
-                <span class="method-start">12851 ms</span>
+                <span class="method-start">18132 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">logIn</span>
-                <span class="method-start">20665 ms</span>
+                <span class="method-start">28296 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testReturnWorkspaceList</span>
-                <span class="method-start">27400 ms</span>
+                <span class="method-start">34905 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">logIn</span>
-                <span class="method-start">32235 ms</span>
+                <span class="method-start">44330 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testUpdateWorkspace</span>
-                <span class="method-start">38858 ms</span>
+                <span class="method-start">50569 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">logIn</span>
-                <span class="method-start">44518 ms</span>
+                <span class="method-start">60051 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testDeleteWorkspace</span>
-                <span class="method-start">51023 ms</span>
+                <span class="method-start">65557 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.postman.test.selenium.BaseTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">53122 ms</span>
+                <span class="method-start">69459 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

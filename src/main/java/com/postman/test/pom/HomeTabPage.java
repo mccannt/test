@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 import org.openqa.selenium.By;
 
-public abstract class HomeTabPage extends BasePage {
+public class HomeTabPage extends BasePage {
 
 	//By elements
 	private By homeTab = By.xpath("//a/div[contains(text(),'Home')]");

@@ -1727,3 +1727,573 @@
 [INFO ] 2021-01-19 08:12:41.640 com.postman.test.selenium.SeleniumTest - And I delete the workspace.
 [INFO ] 2021-01-19 08:12:43.001 com.postman.test.selenium.SeleniumTest - And I log out of the application.
 [INFO ] 2021-01-19 08:12:43.572 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-19 08:58:17.425 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-19 08:58:17.736 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-19 08:58:17.738 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-19 08:58:17.842 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-19 08:58:17.900 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-19 08:58:23.349 com.postman.test.selenium.SeleniumTest - Start of Creating New Personal Workspace Test.
+[INFO ] 2021-01-19 08:58:23.350 com.postman.test.selenium.SeleniumTest - Click Creating New Personal Workspace
+[INFO ] 2021-01-19 08:58:27.671 com.postman.test.selenium.SeleniumTest - Enter New Workspace Name: Sean New Workspace
+[INFO ] 2021-01-19 08:58:27.891 com.postman.test.selenium.SeleniumTest - Enter New Workspace Summary: Sean New Workspace Summary
+[INFO ] 2021-01-19 08:58:28.274 com.postman.test.selenium.SeleniumTest - Enter New Workspace Visability: Personal
+[INFO ] 2021-01-19 08:58:28.947 com.postman.test.selenium.SeleniumTest - Click Create Workspace.
+[INFO ] 2021-01-19 08:58:29.279 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-19 08:58:32.269 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-19 08:58:32.278 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-19 08:58:32.280 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-19 08:58:32.282 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-19 08:58:33.857 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-19 08:58:34.005 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-19 08:58:39.374 com.postman.test.selenium.SeleniumTest - Start of Return Workspace List Test.
+[INFO ] 2021-01-19 08:58:39.374 com.postman.test.selenium.SeleniumTest - And I review my workspace list from Workspace.
+[INFO ] 2021-01-19 08:58:43.908 com.postman.test.selenium.SeleniumTest - And I click View all of my workspaces.
+[INFO ] 2021-01-19 08:58:44.333 com.postman.test.selenium.SeleniumTest - And I review my workspace list from Your Workspace.
+[INFO ] 2021-01-19 08:58:45.081 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-19 08:58:46.867 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-19 08:58:46.868 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-19 08:58:46.871 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-19 08:58:46.873 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-19 08:58:47.003 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-19 08:58:47.072 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-19 08:58:52.431 com.postman.test.selenium.SeleniumTest - Start of Updating Workspace Test.
+[INFO ] 2021-01-19 08:58:52.431 com.postman.test.selenium.SeleniumTest - And I select my newly created workspace from the dropdown list.
+[INFO ] 2021-01-19 08:58:53.397 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace name: Sean Updated Workspace
+[INFO ] 2021-01-19 08:58:56.481 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace summary: Sean Updated Summary
+[INFO ] 2021-01-19 08:58:57.044 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace description: Sean Updated Description
+[INFO ] 2021-01-19 09:05:24.108 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-19 09:05:24.438 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-19 09:05:24.439 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-19 09:05:24.537 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-19 09:05:24.602 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-19 09:05:30.063 com.postman.test.selenium.SeleniumTest - Start of Creating New Personal Workspace Test.
+[INFO ] 2021-01-19 09:05:30.064 com.postman.test.selenium.SeleniumTest - Click Creating New Personal Workspace
+[INFO ] 2021-01-19 09:05:35.605 com.postman.test.selenium.SeleniumTest - Enter New Workspace Name: Sean New Workspace
+[INFO ] 2021-01-19 09:05:35.991 com.postman.test.selenium.SeleniumTest - Enter New Workspace Summary: Sean New Workspace Summary
+[INFO ] 2021-01-19 09:05:36.252 com.postman.test.selenium.SeleniumTest - Enter New Workspace Visability: Personal
+[INFO ] 2021-01-19 09:05:36.970 com.postman.test.selenium.SeleniumTest - Click Create Workspace.
+[INFO ] 2021-01-19 09:05:37.313 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-19 09:05:40.090 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-19 09:05:40.099 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-19 09:05:40.101 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-19 09:05:40.103 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-19 09:05:41.204 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-19 09:05:41.322 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-19 09:05:46.775 com.postman.test.selenium.SeleniumTest - Start of Return Workspace List Test.
+[INFO ] 2021-01-19 09:05:46.776 com.postman.test.selenium.SeleniumTest - And I review my workspace list from Workspace.
+[INFO ] 2021-01-19 09:05:51.490 com.postman.test.selenium.SeleniumTest - And I click View all of my workspaces.
+[INFO ] 2021-01-19 09:05:51.936 com.postman.test.selenium.SeleniumTest - And I review my workspace list from Your Workspace.
+[INFO ] 2021-01-19 09:05:52.072 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-19 09:05:53.100 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-19 09:05:53.102 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-19 09:05:53.104 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-19 09:05:53.106 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-19 09:05:53.789 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-19 09:05:53.933 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-19 09:05:59.307 com.postman.test.selenium.SeleniumTest - Start of Updating Workspace Test.
+[INFO ] 2021-01-19 09:05:59.308 com.postman.test.selenium.SeleniumTest - And I select my newly created workspace from the dropdown list.
+[INFO ] 2021-01-19 09:06:00.591 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace name: Sean Updated Workspace
+[INFO ] 2021-01-19 09:06:03.637 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace summary: Sean Updated Summary
+[INFO ] 2021-01-19 09:06:04.158 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace description: Sean Updated Description
+[INFO ] 2021-01-20 07:47:41.089 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 07:47:41.380 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 07:47:41.382 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 07:47:41.633 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 07:47:41.785 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 07:47:47.017 com.postman.test.selenium.SeleniumTest - Start of Creating New Personal Workspace Test.
+[INFO ] 2021-01-20 07:47:47.018 com.postman.test.selenium.SeleniumTest - Click Creating New Personal Workspace
+[INFO ] 2021-01-20 07:47:52.575 com.postman.test.selenium.SeleniumTest - Enter New Workspace Name: Sean New Workspace
+[INFO ] 2021-01-20 07:47:53.034 com.postman.test.selenium.SeleniumTest - Enter New Workspace Summary: Sean New Workspace Summary
+[INFO ] 2021-01-20 07:47:53.543 com.postman.test.selenium.SeleniumTest - Enter New Workspace Visability: Personal
+[INFO ] 2021-01-20 07:47:53.947 com.postman.test.selenium.SeleniumTest - Click Create Workspace.
+[INFO ] 2021-01-20 07:47:54.175 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 07:47:56.621 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-20 07:47:56.628 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 07:47:56.630 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 07:47:56.631 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 07:47:57.838 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 07:47:58.000 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 07:48:03.172 com.postman.test.selenium.SeleniumTest - Start of Return Workspace List Test.
+[INFO ] 2021-01-20 07:48:03.172 com.postman.test.selenium.SeleniumTest - And I review my workspace list from Workspace.
+[INFO ] 2021-01-20 07:48:10.184 com.postman.test.selenium.SeleniumTest - And I click View all of my workspaces.
+[INFO ] 2021-01-20 07:48:10.445 com.postman.test.selenium.SeleniumTest - And I review my workspace list from Your Workspace.
+[INFO ] 2021-01-20 07:48:11.290 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 07:48:11.903 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-20 07:48:11.904 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 07:48:11.907 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 07:48:11.908 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 07:48:13.133 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 07:48:13.326 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 07:48:18.538 com.postman.test.selenium.SeleniumTest - Start of Updating Workspace Test.
+[INFO ] 2021-01-20 07:48:18.538 com.postman.test.selenium.SeleniumTest - And I select my newly created workspace from the dropdown list.
+[INFO ] 2021-01-20 07:48:19.078 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace name: Sean Updated Workspace
+[INFO ] 2021-01-20 07:48:22.145 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace summary: Sean Updated Summary
+[INFO ] 2021-01-20 07:48:23.010 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace description: Sean Updated Description
+[INFO ] 2021-01-20 07:48:24.586 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 07:48:25.211 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-20 07:48:25.213 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 07:48:25.215 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 07:48:25.217 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 07:48:26.245 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 07:48:26.368 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 07:48:31.534 com.postman.test.selenium.SeleniumTest - Start of Deleting Workspace Test.
+[INFO ] 2021-01-20 07:48:31.534 com.postman.test.selenium.SeleniumTest - And I delete the workspace.
+[INFO ] 2021-01-20 07:48:32.962 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 07:48:34.014 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-20 08:13:34.828 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 08:13:35.082 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 08:13:35.084 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 08:13:35.413 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 08:13:35.665 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 08:13:41.007 com.postman.test.selenium.SeleniumTest - Start of Creating New Personal Workspace Test.
+[INFO ] 2021-01-20 08:13:41.008 com.postman.test.selenium.SeleniumTest - Click Creating New Personal Workspace
+[INFO ] 2021-01-20 08:13:47.040 com.postman.test.selenium.SeleniumTest - Enter New Workspace Name: Sean New Workspace
+[INFO ] 2021-01-20 08:13:47.503 com.postman.test.selenium.SeleniumTest - Enter New Workspace Summary: Sean New Workspace Summary
+[INFO ] 2021-01-20 08:13:48.010 com.postman.test.selenium.SeleniumTest - Enter New Workspace Visability: Personal
+[INFO ] 2021-01-20 08:13:48.323 com.postman.test.selenium.SeleniumTest - Click Create Workspace.
+[INFO ] 2021-01-20 08:13:48.507 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 08:13:51.321 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-20 08:13:51.329 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 08:13:51.332 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 08:13:51.333 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 08:13:52.434 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 08:13:52.597 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 08:13:57.841 com.postman.test.selenium.SeleniumTest - Start of Return Workspace List Test.
+[INFO ] 2021-01-20 08:13:57.842 com.postman.test.selenium.SeleniumTest - And I review my workspace list from Workspace.
+[INFO ] 2021-01-20 08:14:04.983 com.postman.test.selenium.SeleniumTest - And I click View all of my workspaces.
+[INFO ] 2021-01-20 08:14:05.235 com.postman.test.selenium.SeleniumTest - And I review my workspace list from Your Workspace.
+[INFO ] 2021-01-20 08:14:05.651 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 08:14:06.283 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-20 08:14:06.284 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 08:14:06.286 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 08:14:06.288 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 08:14:07.500 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 08:14:07.809 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 08:14:13.187 com.postman.test.selenium.SeleniumTest - Start of Updating Workspace Test.
+[INFO ] 2021-01-20 08:14:13.187 com.postman.test.selenium.SeleniumTest - And I select my newly created workspace from the dropdown list.
+[INFO ] 2021-01-20 08:36:30.722 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 08:36:31.044 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 08:36:31.046 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 08:36:31.367 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 08:36:31.527 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 08:36:36.815 com.postman.test.selenium.SeleniumTest - Start of Creating New Personal Workspace Test.
+[INFO ] 2021-01-20 08:36:36.816 com.postman.test.selenium.SeleniumTest - Click Creating New Personal Workspace
+[INFO ] 2021-01-20 08:36:41.971 com.postman.test.selenium.SeleniumTest - Enter New Workspace Name: Sean New Workspace
+[INFO ] 2021-01-20 08:36:42.544 com.postman.test.selenium.SeleniumTest - Enter New Workspace Summary: Sean New Workspace Summary
+[INFO ] 2021-01-20 08:36:43.136 com.postman.test.selenium.SeleniumTest - Enter New Workspace Visability: Personal
+[INFO ] 2021-01-20 08:36:43.467 com.postman.test.selenium.SeleniumTest - Click Create Workspace.
+[INFO ] 2021-01-20 08:36:43.645 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 08:36:45.996 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-20 08:36:46.006 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 08:36:46.008 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 08:36:46.010 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 08:36:47.667 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 08:36:48.007 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 08:36:53.258 com.postman.test.selenium.SeleniumTest - Start of Return Workspace List Test.
+[INFO ] 2021-01-20 08:36:53.259 com.postman.test.selenium.SeleniumTest - And I review my workspace list from Workspace.
+[INFO ] 2021-01-20 08:37:00.639 com.postman.test.selenium.SeleniumTest - And I click View all of my workspaces.
+[INFO ] 2021-01-20 08:37:00.926 com.postman.test.selenium.SeleniumTest - And I review my workspace list from Your Workspace.
+[INFO ] 2021-01-20 08:37:01.372 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 08:37:01.914 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-20 08:37:01.916 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 08:37:01.918 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 08:37:01.920 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 08:37:03.132 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 08:37:03.268 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 08:37:08.460 com.postman.test.selenium.SeleniumTest - Start of Updating Workspace Test.
+[INFO ] 2021-01-20 08:37:08.460 com.postman.test.selenium.SeleniumTest - And I select my newly created workspace from the dropdown list.
+[INFO ] 2021-01-20 08:37:12.205 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace name: Sean Updated Workspace
+[INFO ] 2021-01-20 08:37:13.187 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace summary: Sean Updated Summary
+[INFO ] 2021-01-20 08:37:13.931 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace description: Sean Updated Description
+[INFO ] 2021-01-20 08:37:15.213 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 08:38:31.985 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 08:38:32.459 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 08:38:32.462 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 08:38:32.727 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 08:38:32.896 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 08:38:38.121 com.postman.test.selenium.SeleniumTest - Start of Creating New Personal Workspace Test.
+[INFO ] 2021-01-20 08:38:38.122 com.postman.test.selenium.SeleniumTest - Click Creating New Personal Workspace
+[INFO ] 2021-01-20 08:38:43.572 com.postman.test.selenium.SeleniumTest - Enter New Workspace Name: Sean New Workspace
+[INFO ] 2021-01-20 08:38:43.919 com.postman.test.selenium.SeleniumTest - Enter New Workspace Summary: Sean New Workspace Summary
+[INFO ] 2021-01-20 08:38:44.544 com.postman.test.selenium.SeleniumTest - Enter New Workspace Visability: Personal
+[INFO ] 2021-01-20 08:38:44.957 com.postman.test.selenium.SeleniumTest - Click Create Workspace.
+[INFO ] 2021-01-20 08:38:45.191 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 08:38:47.192 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-20 08:38:47.199 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 08:38:47.201 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 08:38:47.203 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 08:38:48.468 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 08:38:48.612 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 08:38:53.819 com.postman.test.selenium.SeleniumTest - Start of Return Workspace List Test.
+[INFO ] 2021-01-20 08:38:53.819 com.postman.test.selenium.SeleniumTest - And I review my workspace list from Workspace.
+[INFO ] 2021-01-20 08:39:01.440 com.postman.test.selenium.SeleniumTest - And I click View all of my workspaces.
+[INFO ] 2021-01-20 08:39:01.815 com.postman.test.selenium.SeleniumTest - And I review my workspace list from Your Workspace.
+[INFO ] 2021-01-20 08:39:02.259 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 08:39:02.724 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-20 08:39:02.726 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 08:39:02.728 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 08:39:02.730 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 08:39:03.929 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 08:39:04.054 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 08:39:09.228 com.postman.test.selenium.SeleniumTest - Start of Updating Workspace Test.
+[INFO ] 2021-01-20 08:39:09.229 com.postman.test.selenium.SeleniumTest - And I select my newly created workspace from the dropdown list.
+[INFO ] 2021-01-20 08:39:12.827 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace name: Sean Updated Workspace
+[INFO ] 2021-01-20 08:39:13.714 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace summary: Sean Updated Summary
+[INFO ] 2021-01-20 08:39:14.368 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace description: Sean Updated Description
+[INFO ] 2021-01-20 08:39:15.757 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 08:41:05.271 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 08:41:05.506 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 08:41:05.508 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 08:41:05.769 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 08:41:06.191 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 08:41:11.510 com.postman.test.selenium.SeleniumTest - Start of Creating New Personal Workspace Test.
+[INFO ] 2021-01-20 08:41:11.510 com.postman.test.selenium.SeleniumTest - Click Creating New Personal Workspace
+[INFO ] 2021-01-20 08:41:16.784 com.postman.test.selenium.SeleniumTest - Enter New Workspace Name: Sean New Workspace
+[INFO ] 2021-01-20 08:41:17.182 com.postman.test.selenium.SeleniumTest - Enter New Workspace Summary: Sean New Workspace Summary
+[INFO ] 2021-01-20 08:41:17.762 com.postman.test.selenium.SeleniumTest - Enter New Workspace Visability: Personal
+[INFO ] 2021-01-20 08:41:18.161 com.postman.test.selenium.SeleniumTest - Click Create Workspace.
+[INFO ] 2021-01-20 08:41:18.418 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 08:41:21.259 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-20 08:41:21.267 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 08:41:21.269 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 08:41:21.270 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 08:41:22.538 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 08:41:22.758 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 08:41:27.982 com.postman.test.selenium.SeleniumTest - Start of Deleting Workspace Test.
+[INFO ] 2021-01-20 08:41:27.983 com.postman.test.selenium.SeleniumTest - And I delete the workspace.
+[INFO ] 2021-01-20 08:41:49.003 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 08:41:49.005 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 08:41:49.007 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 08:42:09.051 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 08:42:09.053 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 08:42:09.055 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 08:43:38.189 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 08:43:38.438 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 08:43:38.440 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 08:43:38.665 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 08:43:38.875 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 08:43:44.098 com.postman.test.selenium.SeleniumTest - Start of Creating New Personal Workspace Test.
+[INFO ] 2021-01-20 08:43:44.099 com.postman.test.selenium.SeleniumTest - Click Creating New Personal Workspace
+[INFO ] 2021-01-20 08:43:50.440 com.postman.test.selenium.SeleniumTest - Enter New Workspace Name: Sean New Workspace
+[INFO ] 2021-01-20 08:43:50.836 com.postman.test.selenium.SeleniumTest - Enter New Workspace Summary: Sean New Workspace Summary
+[INFO ] 2021-01-20 08:43:51.140 com.postman.test.selenium.SeleniumTest - Enter New Workspace Visability: Personal
+[INFO ] 2021-01-20 08:43:51.466 com.postman.test.selenium.SeleniumTest - Click Create Workspace.
+[INFO ] 2021-01-20 08:43:51.708 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 08:43:54.280 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-20 08:43:54.287 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 08:43:54.290 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 08:43:54.291 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 08:43:55.439 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 08:43:55.660 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 08:44:00.899 com.postman.test.selenium.SeleniumTest - Start of Return Workspace List Test.
+[INFO ] 2021-01-20 08:44:00.899 com.postman.test.selenium.SeleniumTest - And I review my workspace list from Workspace.
+[INFO ] 2021-01-20 08:44:09.502 com.postman.test.selenium.SeleniumTest - And I click View all of my workspaces.
+[INFO ] 2021-01-20 08:44:09.848 com.postman.test.selenium.SeleniumTest - And I review my workspace list from Your Workspace.
+[INFO ] 2021-01-20 08:44:10.229 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 08:44:10.715 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-20 08:44:10.717 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 08:44:10.719 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 08:44:10.723 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 08:44:11.790 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 08:44:11.947 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 08:44:17.205 com.postman.test.selenium.SeleniumTest - Start of Updating Workspace Test.
+[INFO ] 2021-01-20 08:44:17.206 com.postman.test.selenium.SeleniumTest - And I select my newly created workspace from the dropdown list.
+[INFO ] 2021-01-20 08:44:20.948 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace name: Sean Updated Workspace
+[INFO ] 2021-01-20 08:44:21.630 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace summary: Sean Updated Summary
+[INFO ] 2021-01-20 08:44:22.474 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace description: Sean Updated Description
+[INFO ] 2021-01-20 08:44:23.664 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 08:44:24.214 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 08:44:24.216 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 08:44:24.218 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 08:44:25.391 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 08:44:25.562 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 08:44:30.735 com.postman.test.selenium.SeleniumTest - Start of Deleting Workspace Test.
+[INFO ] 2021-01-20 08:44:30.735 com.postman.test.selenium.SeleniumTest - And I delete the workspace.
+[INFO ] 2021-01-20 08:44:32.404 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 08:44:33.812 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-20 08:57:55.832 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 08:57:56.413 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 08:57:56.415 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 08:57:56.531 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 08:57:56.606 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 08:58:02.025 com.postman.test.selenium.SeleniumTest - Start of Creating New Personal Workspace Test.
+[INFO ] 2021-01-20 08:58:02.025 com.postman.test.selenium.SeleniumTest - Click Creating New Personal Workspace
+[INFO ] 2021-01-20 08:58:07.382 com.postman.test.selenium.SeleniumTest - Enter New Workspace Name: Sean New Workspace
+[INFO ] 2021-01-20 08:58:07.626 com.postman.test.selenium.SeleniumTest - Enter New Workspace Summary: Sean New Workspace Summary
+[INFO ] 2021-01-20 08:58:07.897 com.postman.test.selenium.SeleniumTest - Enter New Workspace Visability: Personal
+[INFO ] 2021-01-20 08:58:08.570 com.postman.test.selenium.SeleniumTest - Click Create Workspace.
+[INFO ] 2021-01-20 08:58:08.917 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 08:58:10.383 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-20 08:58:10.393 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 08:58:10.396 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 08:58:10.398 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 08:58:12.209 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 08:58:12.372 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 08:58:17.894 com.postman.test.selenium.SeleniumTest - Start of Return Workspace List Test.
+[INFO ] 2021-01-20 08:58:17.894 com.postman.test.selenium.SeleniumTest - And I review my workspace list from Workspace.
+[INFO ] 2021-01-20 08:58:25.063 com.postman.test.selenium.SeleniumTest - And I click View all of my workspaces.
+[INFO ] 2021-01-20 08:58:25.568 com.postman.test.selenium.SeleniumTest - And I review my workspace list from Your Workspace.
+[INFO ] 2021-01-20 08:58:25.854 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 08:58:27.571 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-20 08:58:27.572 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 08:58:27.575 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 08:58:27.577 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 08:58:27.695 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 08:58:27.752 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 08:58:33.117 com.postman.test.selenium.SeleniumTest - Start of Updating Workspace Test.
+[INFO ] 2021-01-20 08:58:33.118 com.postman.test.selenium.SeleniumTest - And I select my newly created workspace from the dropdown list.
+[INFO ] 2021-01-20 08:58:35.264 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace name: Sean Updated Workspace
+[INFO ] 2021-01-20 08:58:38.443 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace summary: Sean Updated Summary
+[INFO ] 2021-01-20 08:58:39.007 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace description: Sean Updated Description
+[INFO ] 2021-01-20 09:02:05.854 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 09:02:06.582 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 09:02:06.584 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 09:02:06.686 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 09:02:06.776 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 09:02:12.271 com.postman.test.selenium.SeleniumTest - Start of Creating New Personal Workspace Test.
+[INFO ] 2021-01-20 09:02:12.271 com.postman.test.selenium.SeleniumTest - Click Creating New Personal Workspace
+[INFO ] 2021-01-20 09:02:19.209 com.postman.test.selenium.SeleniumTest - Enter New Workspace Name: Sean New Workspace
+[INFO ] 2021-01-20 09:02:19.412 com.postman.test.selenium.SeleniumTest - Enter New Workspace Summary: Sean New Workspace Summary
+[INFO ] 2021-01-20 09:02:19.686 com.postman.test.selenium.SeleniumTest - Enter New Workspace Visability: Personal
+[INFO ] 2021-01-20 09:02:20.356 com.postman.test.selenium.SeleniumTest - Click Create Workspace.
+[INFO ] 2021-01-20 09:02:20.704 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 09:02:23.332 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-20 09:02:23.341 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 09:02:23.344 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 09:02:23.346 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 09:02:24.786 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 09:02:24.995 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 09:02:30.545 com.postman.test.selenium.SeleniumTest - Start of Return Workspace List Test.
+[INFO ] 2021-01-20 09:02:30.546 com.postman.test.selenium.SeleniumTest - And I review my workspace list from Workspace.
+[INFO ] 2021-01-20 09:02:38.161 com.postman.test.selenium.SeleniumTest - And I click View all of my workspaces.
+[INFO ] 2021-01-20 09:02:38.568 com.postman.test.selenium.SeleniumTest - And I review my workspace list from Your Workspace.
+[INFO ] 2021-01-20 09:02:38.811 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 09:02:40.542 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-20 09:02:40.543 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 09:02:40.545 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 09:02:40.547 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 09:02:40.709 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 09:02:40.769 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 09:02:46.133 com.postman.test.selenium.SeleniumTest - Start of Updating Workspace Test.
+[INFO ] 2021-01-20 09:02:46.134 com.postman.test.selenium.SeleniumTest - And I select my newly created workspace from the dropdown list.
+[INFO ] 2021-01-20 09:02:48.257 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace name: Sean Updated Workspace
+[INFO ] 2021-01-20 09:02:51.388 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace summary: Sean Updated Summary
+[INFO ] 2021-01-20 09:02:52.074 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace description: Sean Updated Description
+[INFO ] 2021-01-20 09:10:24.788 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 09:10:25.326 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 09:10:25.329 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 09:10:25.440 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 09:10:25.525 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 09:10:31.003 com.postman.test.selenium.SeleniumTest - Start of Creating New Personal Workspace Test.
+[INFO ] 2021-01-20 09:10:31.004 com.postman.test.selenium.SeleniumTest - Click Creating New Personal Workspace
+[INFO ] 2021-01-20 09:10:36.319 com.postman.test.selenium.SeleniumTest - Enter New Workspace Name: Sean New Workspace
+[INFO ] 2021-01-20 09:10:36.595 com.postman.test.selenium.SeleniumTest - Enter New Workspace Summary: Sean New Workspace Summary
+[INFO ] 2021-01-20 09:10:36.860 com.postman.test.selenium.SeleniumTest - Enter New Workspace Visability: Personal
+[INFO ] 2021-01-20 09:10:37.477 com.postman.test.selenium.SeleniumTest - Click Create Workspace.
+[INFO ] 2021-01-20 09:10:37.825 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 09:10:40.343 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-20 09:10:40.351 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 09:10:40.355 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 09:10:40.357 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 09:10:41.353 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 09:10:41.533 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 09:10:46.978 com.postman.test.selenium.SeleniumTest - Start of Return Workspace List Test.
+[INFO ] 2021-01-20 09:10:46.979 com.postman.test.selenium.SeleniumTest - And I review my workspace list from Workspace.
+[INFO ] 2021-01-20 09:10:54.459 com.postman.test.selenium.SeleniumTest - And I click View all of my workspaces.
+[INFO ] 2021-01-20 09:10:54.944 com.postman.test.selenium.SeleniumTest - And I review my workspace list from Your Workspace.
+[INFO ] 2021-01-20 09:10:55.571 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 09:10:57.328 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-20 09:10:57.330 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 09:10:57.333 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 09:10:57.334 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 09:10:57.443 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 09:10:57.500 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 09:11:02.824 com.postman.test.selenium.SeleniumTest - Start of Updating Workspace Test.
+[INFO ] 2021-01-20 09:11:02.824 com.postman.test.selenium.SeleniumTest - And I select my newly created workspace from the dropdown list.
+[INFO ] 2021-01-20 09:11:05.389 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace name: Sean Updated Workspace
+[INFO ] 2021-01-20 09:11:07.508 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 09:11:07.511 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 09:11:07.513 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 09:16:47.559 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 09:16:48.081 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 09:16:48.083 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 09:16:48.188 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 09:16:48.261 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 09:16:53.751 com.postman.test.selenium.SeleniumTest - Start of Creating New Personal Workspace Test.
+[INFO ] 2021-01-20 09:16:53.752 com.postman.test.selenium.SeleniumTest - Click Creating New Personal Workspace
+[INFO ] 2021-01-20 09:16:59.982 com.postman.test.selenium.SeleniumTest - Enter New Workspace Name: Sean New Workspace
+[INFO ] 2021-01-20 09:17:00.258 com.postman.test.selenium.SeleniumTest - Enter New Workspace Summary: Sean New Workspace Summary
+[INFO ] 2021-01-20 09:17:00.489 com.postman.test.selenium.SeleniumTest - Enter New Workspace Visability: Personal
+[INFO ] 2021-01-20 09:17:01.111 com.postman.test.selenium.SeleniumTest - Click Create Workspace.
+[INFO ] 2021-01-20 09:17:01.462 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 09:17:03.833 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-20 09:17:03.841 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 09:17:03.844 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 09:17:03.846 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 09:17:04.677 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 09:17:04.883 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 09:17:10.580 com.postman.test.selenium.SeleniumTest - Start of Return Workspace List Test.
+[INFO ] 2021-01-20 09:17:10.580 com.postman.test.selenium.SeleniumTest - And I review my workspace list from Workspace.
+[INFO ] 2021-01-20 09:17:17.764 com.postman.test.selenium.SeleniumTest - And I click View all of my workspaces.
+[INFO ] 2021-01-20 09:17:18.262 com.postman.test.selenium.SeleniumTest - And I review my workspace list from Your Workspace.
+[INFO ] 2021-01-20 09:17:18.555 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 09:17:20.308 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-20 09:17:20.309 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 09:17:20.312 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 09:17:20.313 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 09:17:20.427 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 09:17:20.481 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 09:17:25.832 com.postman.test.selenium.SeleniumTest - Start of Updating Workspace Test.
+[INFO ] 2021-01-20 09:17:25.833 com.postman.test.selenium.SeleniumTest - And I select my newly created workspace from the dropdown list.
+[INFO ] 2021-01-20 09:17:27.674 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace name: Sean Updated Workspace
+[INFO ] 2021-01-20 09:17:30.999 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace summary: Sean Updated Summary
+[INFO ] 2021-01-20 09:17:31.416 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace description: Sean Updated Description
+[INFO ] 2021-01-20 09:20:37.605 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 09:20:37.965 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 09:20:37.968 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 09:20:38.053 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 09:20:38.114 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 09:20:43.581 com.postman.test.selenium.SeleniumTest - Start of Creating New Personal Workspace Test.
+[INFO ] 2021-01-20 09:20:43.582 com.postman.test.selenium.SeleniumTest - Click Creating New Personal Workspace
+[INFO ] 2021-01-20 09:20:49.351 com.postman.test.selenium.SeleniumTest - Enter New Workspace Name: Sean New Workspace
+[INFO ] 2021-01-20 09:20:49.585 com.postman.test.selenium.SeleniumTest - Enter New Workspace Summary: Sean New Workspace Summary
+[INFO ] 2021-01-20 09:20:49.771 com.postman.test.selenium.SeleniumTest - Enter New Workspace Visability: Personal
+[INFO ] 2021-01-20 09:20:50.407 com.postman.test.selenium.SeleniumTest - Click Create Workspace.
+[INFO ] 2021-01-20 09:20:50.787 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 09:20:52.013 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-20 09:20:52.021 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 09:20:52.023 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 09:20:52.026 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 09:20:54.009 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 09:20:54.137 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 09:20:59.635 com.postman.test.selenium.SeleniumTest - Start of Return Workspace List Test.
+[INFO ] 2021-01-20 09:20:59.636 com.postman.test.selenium.SeleniumTest - And I review my workspace list from Workspace.
+[INFO ] 2021-01-20 09:21:06.782 com.postman.test.selenium.SeleniumTest - And I click View all of my workspaces.
+[INFO ] 2021-01-20 09:21:07.188 com.postman.test.selenium.SeleniumTest - And I review my workspace list from Your Workspace.
+[INFO ] 2021-01-20 09:21:07.471 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 09:21:09.276 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-20 09:21:09.278 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 09:21:09.280 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 09:21:09.282 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 09:21:09.368 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 09:21:09.413 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 09:21:14.774 com.postman.test.selenium.SeleniumTest - Start of Updating Workspace Test.
+[INFO ] 2021-01-20 09:21:14.775 com.postman.test.selenium.SeleniumTest - And I select my newly created workspace from the dropdown list.
+[INFO ] 2021-01-20 09:21:16.574 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace name: Sean Updated Workspace
+[INFO ] 2021-01-20 09:21:19.733 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace summary: Sean Updated Summary
+[INFO ] 2021-01-20 09:21:20.367 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace description: Sean Updated Description
+[INFO ] 2021-01-20 09:21:40.559 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 09:21:40.561 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 09:21:40.562 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 09:27:06.037 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 09:27:06.535 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 09:27:06.538 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 09:27:06.655 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 09:27:06.732 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 09:27:12.200 com.postman.test.selenium.SeleniumTest - Start of Creating New Personal Workspace Test.
+[INFO ] 2021-01-20 09:27:12.201 com.postman.test.selenium.SeleniumTest - Click Creating New Personal Workspace
+[INFO ] 2021-01-20 09:27:18.291 com.postman.test.selenium.SeleniumTest - Enter New Workspace Name: Sean New Workspace
+[INFO ] 2021-01-20 09:27:18.580 com.postman.test.selenium.SeleniumTest - Enter New Workspace Summary: Sean New Workspace Summary
+[INFO ] 2021-01-20 09:27:18.815 com.postman.test.selenium.SeleniumTest - Enter New Workspace Visability: Personal
+[INFO ] 2021-01-20 09:27:19.434 com.postman.test.selenium.SeleniumTest - Click Create Workspace.
+[INFO ] 2021-01-20 09:27:19.806 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 09:27:22.406 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-20 09:27:22.415 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 09:27:22.418 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 09:27:22.420 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 09:27:23.699 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 09:27:23.822 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 09:27:29.339 com.postman.test.selenium.SeleniumTest - Start of Return Workspace List Test.
+[INFO ] 2021-01-20 09:27:29.339 com.postman.test.selenium.SeleniumTest - And I review my workspace list from Workspace.
+[INFO ] 2021-01-20 09:27:37.849 com.postman.test.selenium.SeleniumTest - And I click View all of my workspaces.
+[INFO ] 2021-01-20 09:27:38.279 com.postman.test.selenium.SeleniumTest - And I review my workspace list from Your Workspace.
+[INFO ] 2021-01-20 09:27:38.686 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 09:27:40.498 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-20 09:27:40.499 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 09:27:40.503 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 09:27:40.505 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 09:27:40.656 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 09:27:40.719 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 09:27:46.078 com.postman.test.selenium.SeleniumTest - Start of Updating Workspace Test.
+[INFO ] 2021-01-20 09:27:46.079 com.postman.test.selenium.SeleniumTest - And I select my newly created workspace from the dropdown list.
+[INFO ] 2021-01-20 09:27:49.369 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace name: Sean Updated Workspace
+[INFO ] 2021-01-20 09:27:52.682 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace summary: Sean Updated Summary
+[INFO ] 2021-01-20 09:27:53.201 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace description: Sean Updated Description
+[INFO ] 2021-01-20 09:30:11.666 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 09:30:12.187 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 09:30:12.190 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 09:30:12.309 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 09:30:12.393 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 09:30:17.834 com.postman.test.selenium.SeleniumTest - Start of Creating New Personal Workspace Test.
+[INFO ] 2021-01-20 09:30:17.835 com.postman.test.selenium.SeleniumTest - Click Creating New Personal Workspace
+[INFO ] 2021-01-20 09:30:25.384 com.postman.test.selenium.SeleniumTest - Enter New Workspace Name: Sean New Workspace
+[INFO ] 2021-01-20 09:30:25.693 com.postman.test.selenium.SeleniumTest - Enter New Workspace Summary: Sean New Workspace Summary
+[INFO ] 2021-01-20 09:30:25.988 com.postman.test.selenium.SeleniumTest - Enter New Workspace Visability: Personal
+[INFO ] 2021-01-20 09:30:26.716 com.postman.test.selenium.SeleniumTest - Click Create Workspace.
+[INFO ] 2021-01-20 09:30:27.087 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 09:30:29.883 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-20 09:30:29.892 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 09:30:29.894 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 09:30:29.896 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 09:30:31.191 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 09:30:31.346 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 09:30:36.897 com.postman.test.selenium.SeleniumTest - Start of Return Workspace List Test.
+[INFO ] 2021-01-20 09:30:36.897 com.postman.test.selenium.SeleniumTest - And I review my workspace list from Workspace.
+[INFO ] 2021-01-20 09:30:45.170 com.postman.test.selenium.SeleniumTest - And I click View all of my workspaces.
+[INFO ] 2021-01-20 09:30:45.763 com.postman.test.selenium.SeleniumTest - And I review my workspace list from Your Workspace.
+[INFO ] 2021-01-20 09:30:46.170 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 09:30:47.964 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-20 09:30:47.965 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 09:30:47.967 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 09:30:47.969 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 09:30:48.111 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 09:30:48.172 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 09:30:53.536 com.postman.test.selenium.SeleniumTest - Start of Updating Workspace Test.
+[INFO ] 2021-01-20 09:30:53.536 com.postman.test.selenium.SeleniumTest - And I select my newly created workspace from the dropdown list.
+[INFO ] 2021-01-20 09:30:56.265 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace name: Sean Updated Workspace
+[INFO ] 2021-01-20 09:30:59.227 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace summary: Sean Updated Summary
+[INFO ] 2021-01-20 09:31:00.034 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace description: Sean Updated Description
+[INFO ] 2021-01-20 09:33:22.540 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 09:33:23.039 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 09:33:23.042 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 09:33:23.226 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 09:33:23.305 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 09:33:28.777 com.postman.test.selenium.SeleniumTest - Start of Creating New Personal Workspace Test.
+[INFO ] 2021-01-20 09:33:28.777 com.postman.test.selenium.SeleniumTest - Click Creating New Personal Workspace
+[INFO ] 2021-01-20 09:33:34.596 com.postman.test.selenium.SeleniumTest - Enter New Workspace Name: Sean New Workspace
+[INFO ] 2021-01-20 09:33:35.008 com.postman.test.selenium.SeleniumTest - Enter New Workspace Summary: Sean New Workspace Summary
+[INFO ] 2021-01-20 09:33:35.413 com.postman.test.selenium.SeleniumTest - Enter New Workspace Visability: Personal
+[INFO ] 2021-01-20 09:33:36.023 com.postman.test.selenium.SeleniumTest - Click Create Workspace.
+[INFO ] 2021-01-20 09:33:36.363 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 09:33:38.931 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-20 09:33:38.940 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 09:33:38.943 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 09:33:38.944 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 09:33:39.772 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 09:33:40.042 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 09:33:45.548 com.postman.test.selenium.SeleniumTest - Start of Return Workspace List Test.
+[INFO ] 2021-01-20 09:33:45.549 com.postman.test.selenium.SeleniumTest - And I review my workspace list from Workspace.
+[INFO ] 2021-01-20 09:33:52.743 com.postman.test.selenium.SeleniumTest - And I click View all of my workspaces.
+[INFO ] 2021-01-20 09:33:53.209 com.postman.test.selenium.SeleniumTest - And I review my workspace list from Your Workspace.
+[INFO ] 2021-01-20 09:33:53.887 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 09:33:54.971 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-20 09:33:54.973 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 09:33:54.975 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 09:33:54.976 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 09:33:55.738 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 09:33:55.838 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 09:34:01.212 com.postman.test.selenium.SeleniumTest - Start of Updating Workspace Test.
+[INFO ] 2021-01-20 09:34:01.213 com.postman.test.selenium.SeleniumTest - And I select my newly created workspace from the dropdown list.
+[INFO ] 2021-01-20 09:34:03.396 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace name: Sean Updated Workspace
+[INFO ] 2021-01-20 09:34:06.808 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace summary: Sean Updated Summary
+[INFO ] 2021-01-20 09:34:07.457 com.postman.test.selenium.SeleniumTest - And I enter the updated workspace description: Sean Updated Description
+[INFO ] 2021-01-20 09:34:08.818 com.postman.test.selenium.SeleniumTest - And I log out of the application.
+[INFO ] 2021-01-20 09:34:10.691 com.postman.test.selenium.SeleniumTest - End of test.
+[INFO ] 2021-01-20 09:34:10.694 com.postman.test.selenium.SeleniumTest - Logging into Postman.
+[INFO ] 2021-01-20 09:34:10.697 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
+[INFO ] 2021-01-20 09:34:10.699 com.postman.test.selenium.SeleniumTest - Entering email or username.
+[INFO ] 2021-01-20 09:34:10.822 com.postman.test.selenium.SeleniumTest - Entering password.
+[INFO ] 2021-01-20 09:34:10.867 com.postman.test.selenium.SeleniumTest - Click sign in.
+[INFO ] 2021-01-20 09:34:16.201 com.postman.test.selenium.SeleniumTest - Start of Deleting Workspace Test.
+[INFO ] 2021-01-20 09:34:16.201 com.postman.test.selenium.SeleniumTest - And I delete the workspace.
+[INFO ] 2021-01-20 09:34:19.882 com.postman.test.selenium.SeleniumTest - And I log out of the application.

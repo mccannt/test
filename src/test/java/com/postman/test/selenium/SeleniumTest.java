@@ -6,6 +6,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import com.postman.test.data.TestData;
 import com.postman.test.pom.CreateWorkspace;
@@ -24,6 +25,7 @@ public class SeleniumTest extends BaseTest {
 	CreateWorkspace createWorkspace;
 	Workspace workspace;
 	TestData testData;
+	SoftAssert softAssert = new SoftAssert();
 	
 	
 	@BeforeMethod(enabled=true, alwaysRun=true)
@@ -44,6 +46,8 @@ public class SeleniumTest extends BaseTest {
 	public void testCreateNewPersonalWorkspace() {		
 		LOGGER.info("Start of Creating New Personal Workspace Test.");
 		LOGGER.info("Click Creating New Personal Workspace");
+		softAssert.assertEquals(yourWorkspaces.getYourWorkspacesPageTitle(), testData.getYourWorkspacesTitle(),
+				"The Your Workspaces Title was not populated correctly.");
 		createWorkspace = yourWorkspaces.clickCreateNewWorkspaceFromDropdown();
 		LOGGER.info("Enter New Workspace Name: " + testData.getNewWorkspaceName());
 		createWorkspace.enterName(testData.getNewWorkspaceName());
@@ -55,25 +59,31 @@ public class SeleniumTest extends BaseTest {
 		createWorkspace.clickCreateWorkspaceButton();
 		LOGGER.info("And I log out of the application.");
 		createWorkspace.signOut();
+		softAssert.assertAll();
 		LOGGER.info("End of test.");
 	}
 	
-	@Test(enabled=true, dependsOnMethods = {"testCreateNewPersonalWorkspace"})
+	@Test(enabled=true, dependsOnMethods = {"testCreateNewPersonalWorkspace"}, priority=2)
 	public void testReturnWorkspaceList() {
 		LOGGER.info("Start of Return Workspace List Test.");
 		LOGGER.info("And I review my workspace list from Workspace.");
 		yourWorkspaces.clickWorkspaceDropdown();
 		yourWorkspaces.getWorkspaceList().stream().forEach(System.out::println);
+		softAssert.assertTrue(yourWorkspaces.verifyTextInList(yourWorkspaces.getWorkspaceList(), testData.getNewWorkspaceName()),
+						"The new workspace name " + testData.getNewWorkspaceName() + " was not found in the Workspace dropdown list");
 		LOGGER.info("And I click View all of my workspaces.");
 		yourWorkspaces.clickViewAllWorkspaces();
 		LOGGER.info("And I review my workspace list from Your Workspace.");
 		yourWorkspaces.getExtWorkspaceList().stream().forEach(System.out::println);
+		softAssert.assertTrue(yourWorkspaces.verifyTextInList(yourWorkspaces.getExtWorkspaceList(), testData.getNewWorkspaceName()),
+						"The new workspace name " + testData.getNewWorkspaceName() + " was not found in the Your Workspace list");
 		LOGGER.info("And I log out of the application.");
 		yourWorkspaces.signOut();
+		softAssert.assertAll();
 		LOGGER.info("End of test.");
 	}
 	
-	@Test(enabled=true, dependsOnMethods = {"testReturnWorkspaceList"})
+	@Test(enabled=true, dependsOnMethods = {"testCreateNewPersonalWorkspace"}, priority=3)
 	public void testUpdateWorkspace() {
 		LOGGER.info("Start of Updating Workspace Test.");
 		LOGGER.info("And I select my newly created workspace from the dropdown list.");
@@ -89,7 +99,7 @@ public class SeleniumTest extends BaseTest {
 		LOGGER.info("End of test.");
 	}
 	
-	@Test(enabled=true, dependsOnMethods = {"testUpdateWorkspace"})
+	@Test(enabled=true, dependsOnMethods = {"testCreateNewPersonalWorkspace"}, priority=4)
 	public void testDeleteWorkspace() {
 		LOGGER.info("Start of Deleting Workspace Test.");
 		LOGGER.info("And I delete the workspace.");

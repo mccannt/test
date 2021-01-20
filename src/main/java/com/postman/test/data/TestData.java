@@ -12,6 +12,10 @@ public class TestData {
 	private static final long serialVersionUID = 1L;
 	
 	@Nonnull
+	private String yourWorkspacesTitle;
+	@Nonnull
+	private String createARequestText;
+	@Nonnull
 	private String newWorkspaceName;
 	private String newWorkspaceSummary;
 	private String newWorkspaceVisability;
@@ -20,6 +24,18 @@ public class TestData {
 	private String updateWorkspaceSummary;
 	private String updateWorkspaceDescription;
 	
+	public String getYourWorkspacesTitle() {
+		return yourWorkspacesTitle;
+	}
+	public void setYourWorkspacesTitle(String yourWorkspacesTitle) {
+		this.yourWorkspacesTitle = yourWorkspacesTitle;
+	}
+	public String getCreateARequestText() {
+		return createARequestText;
+	}
+	public void setCreateARequestText(String createARequestText) {
+		this.createARequestText = createARequestText;
+	}
 	public String getNewWorkspaceName() {
 		return newWorkspaceName;
 	}
@@ -59,7 +75,8 @@ public class TestData {
 	
 	@Override
 	public String toString() {
-		return "TestData [newWorkspaceName=" + newWorkspaceName + ", newWorkspaceSummary=" + newWorkspaceSummary
+		return "TestData [yourWorkspacesTitle=" + yourWorkspacesTitle + ", createARequestText=" + createARequestText
+				+ ", newWorkspaceName=" + newWorkspaceName + ", newWorkspaceSummary=" + newWorkspaceSummary
 				+ ", newWorkspaceVisability=" + newWorkspaceVisability + ", updateWorkspaceName=" + updateWorkspaceName
 				+ ", updateWorkspaceSummary=" + updateWorkspaceSummary + ", updateWorkspaceDescription="
 				+ updateWorkspaceDescription + "]";
