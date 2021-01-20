@@ -107,7 +107,7 @@ public class Workspace extends HomeTabPage {
 				.sendKeys(Keys.RETURN)
 				.build()
 				.perform();
-			createActions(btnEditWorkspaceDescriptionSave).click().build().perform();
+			clickButton(btnEditWorkspaceDescriptionSave);
 			break;
 		default:
 			System.out.println("No element setup for this browser: " + System.getProperty("browser"));

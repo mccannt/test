@@ -30,6 +30,7 @@ public class BasePage {
 	 * @param by
 	 */
 	protected void clickButton(By by) {
+		waitUntilElementPresent(by);
 		waitUntilElementClickable(by);
 		driver.findElement(by).click();
 		driver.manage().timeouts().pageLoadTimeout(Browser.getWaitTime(), TimeUnit.SECONDS);

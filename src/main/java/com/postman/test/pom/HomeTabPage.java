@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.ElementClickInterceptedException;
 
 public class HomeTabPage extends BasePage {
 
@@ -122,7 +123,18 @@ public class HomeTabPage extends BasePage {
 	 * This method clicks the avatar in the tab area.
 	 */
 	public void clickAvatar() {
-		clickButton(btnAvator);
+		switch(System.getProperty("browser")) {
+			case "chrome":
+				clickButton(btnAvator);
+				break;
+			case "firefox":
+				hold(2);
+				clickButton(btnAvator);
+				break;
+			default:
+				System.out.println("Method not setup for browser type: " + System.getProperty("browser"));
+		}
+		
 	}
 	
 	/**
@@ -146,9 +158,9 @@ public class HomeTabPage extends BasePage {
 	 * This method strings together the signout methods for the app.
 	 */
 	public void signOut() {
-		clickButton(btnAvator);
-		clickButton(btnSignOut);
-		clickButton(btnApproveSignOut);
+		clickAvatar();
+		clickSignOut();
+		approveSignOut();
 	}
 	
 	/**
