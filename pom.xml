@@ -89,7 +89,7 @@
 						<suiteXmlFile>${project.basedir}/testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<systemPropertyVariables>
-						<log4j.configurationFile>src\main\resources\log4j2.xml</log4j.configurationFile>
+						<log4j.configurationFile>src/main/resources/log4j2.xml</log4j.configurationFile>
 					</systemPropertyVariables>
 					<forkCount>0</forkCount>
 				</configuration>

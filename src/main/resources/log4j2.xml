@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="DEBUG">
 	<Properties>
-		<Property name="logPath">src/main/resources/logFiles</Property>
+		<Property name="logPath">src\main\resources\logFiles</Property>
 	</Properties>
 	
     <Appenders>

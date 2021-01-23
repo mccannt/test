@@ -1,5 +1,6 @@
 package com.postman.test.web;
 
+import java.util.Properties;
 import java.util.concurrent.ConcurrentHashMap;
 
 import org.openqa.selenium.WebDriver;
@@ -42,15 +43,28 @@ public class Browser {
 	public static synchronized WebDriver invokeBrowser(String browserType) {
 		driverMap = new ConcurrentHashMap<>();
 		browserType = browserType.toLowerCase();
+		Properties props = System.getProperties();
+		props.list(System.out);
 		switch(browserType) {
 			case "chrome":
-				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir").concat(Config.getConfigValue("driver.path")).concat("\\chromedriver.exe"));
+				if(System.getProperty("os.name").startsWith("win")){
+					System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir").concat(Config.getConfigValue("driver.path")).concat("\\chromedriver.exe"));
+				}
+				if(System.getProperty("os.name").equalsIgnoreCase("Mac OS X")){
+					System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir").concat(Config.getConfigValue("driver.path")).concat("/chromedriver_mac.exe"));
+				}
 				driver = new ChromeDriver();
 				driver.get(Config.getConfigValue("url.path"));
 				driverMap.put(Thread.currentThread().getId(), driver);				
 				break;
 			case "firefox":
-				System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir").concat(Config.getConfigValue("driver.path")).concat("\\geckodriver.exe"));
+				if(System.getProperty("os.name").startsWith("win")){
+					System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir").concat(Config.getConfigValue("driver.path")).concat("\\geckodriver.exe"));;
+				}
+				if(System.getProperty("os.name").equalsIgnoreCase("Mac OS X")){
+					System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir").concat(Config.getConfigValue("driver.path")).concat("/geckodriver_mac.exe"));
+				}
+				
 				driver = new FirefoxDriver();
 				driver.get(Config.getConfigValue("url.path"));
 				driverMap.put(Thread.currentThread().getId(), driver);				
