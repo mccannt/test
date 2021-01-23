@@ -47,7 +47,7 @@ public class Browser {
 		props.list(System.out);
 		switch(browserType) {
 			case "chrome":
-				if(System.getProperty("os.name").startsWith("win")){
+				if(System.getProperty("os.name").startsWith("Windows")){
 					System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir").concat(Config.getConfigValue("driver.path")).concat("\\chromedriver.exe"));
 				}
 				if(System.getProperty("os.name").equalsIgnoreCase("Mac OS X")){
@@ -58,7 +58,7 @@ public class Browser {
 				driverMap.put(Thread.currentThread().getId(), driver);				
 				break;
 			case "firefox":
-				if(System.getProperty("os.name").startsWith("win")){
+				if(System.getProperty("os.name").startsWith("Windows")){
 					System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir").concat(Config.getConfigValue("driver.path")).concat("\\geckodriver.exe"));;
 				}
 				if(System.getProperty("os.name").equalsIgnoreCase("Mac OS X")){
