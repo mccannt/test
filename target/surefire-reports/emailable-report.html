@@ -9,52 +9,12 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Postman Tests</th></tr>
-<tr><td><a href="#t0">Postman Tests - firefox</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">57,561</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Postman Tests - chrome</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">40,543</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Postman Tests</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Postman Tests - firefox &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.postman.test.selenium.SeleniumTest</td><td><a href="#m0">testDeleteWorkspace</a></td><td rowspan="1">1611156856200</td><td rowspan="1">3862</td></tr><tr><th colspan="4">Postman Tests - firefox &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.postman.test.selenium.SeleniumTest</td><td><a href="#m1">testCreateNewPersonalWorkspace</a></td><td rowspan="1">1611156808775</td><td rowspan="1">10156</td></tr><tr class="passedeven"><td><a href="#m2">testReturnWorkspaceList</a></td><td rowspan="1">1611156825548</td><td rowspan="1">9423</td></tr><tr class="passedeven"><td><a href="#m3">testUpdateWorkspace</a></td><td rowspan="1">1611156841212</td><td rowspan="1">9480</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Postman Tests</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Postman Tests - chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.postman.test.selenium.SeleniumTest</td><td><a href="#m0">testCreateNewPersonalWorkspace</a></td><td rowspan="1">1611513075938</td><td rowspan="1">2031</td></tr><tr class="passedeven"><td><a href="#m1">testDeleteWorkspace</a></td><td rowspan="1">1611513108357</td><td rowspan="1">2729</td></tr><tr class="passedeven"><td><a href="#m2">testReturnWorkspaceList</a></td><td rowspan="1">1611513084649</td><td rowspan="1">6913</td></tr><tr class="passedeven"><td><a href="#m3">testUpdateWorkspace</a></td><td rowspan="1">1611513097672</td><td rowspan="1">4210</td></tr></tbody>
 </table>
-<h2>Postman Tests - firefox</h2><h3 id="m0">com.postman.test.selenium.SeleniumTest#testDeleteWorkspace</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;span class=&quot;icon-user-avatar-default pm-user-avatar-icon pm-user-avatar-icon-8 pm-icon-md&quot;&gt; is not clickable at point (1378,24) because another element &lt;div class=&quot;ReactModal__Overlay ReactModal__Overlay--after-open&quot;&gt; obscures it
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MHK-LENOVO1772&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210105180113, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 27948, moz:profile: C:\Users\strego\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: f6a6e90a-8b77-4771-bf1c-ec378f6e941e
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at com.postman.test.pom.BasePage.clickButton(BasePage.java:34)
-	at com.postman.test.pom.HomeTabPage.signOut(HomeTabPage.java:149)
-	at com.postman.test.selenium.SeleniumTest.testDeleteWorkspace(SeleniumTest.java:109)
-	at java.util.ArrayList.forEach(ArrayList.java:1249)
-	at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:87)
-	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1132)
-	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:978)
-	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:854)
-	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:154)
-	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:146)
-	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
-	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
-	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
-	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
-	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
-	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
-	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
-	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:956)
-	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:290)
-	at org.apache.maven.cli.MavenCli.main(MavenCli.java:194)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
-	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
-... Removed 42 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.postman.test.selenium.SeleniumTest#testCreateNewPersonalWorkspace</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Postman Tests - chrome</h2><h3 id="m0">com.postman.test.selenium.SeleniumTest#testCreateNewPersonalWorkspace</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.postman.test.selenium.SeleniumTest#testDeleteWorkspace</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m2">com.postman.test.selenium.SeleniumTest#testReturnWorkspaceList</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m3">com.postman.test.selenium.SeleniumTest#testUpdateWorkspace</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>

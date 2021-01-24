@@ -5,6 +5,8 @@ import java.util.concurrent.ConcurrentHashMap;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import com.postman.test.util.Config;
@@ -53,7 +55,15 @@ public class Browser {
 				if(System.getProperty("os.name").equalsIgnoreCase("Mac OS X")){
 					System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir").concat(Config.getConfigValue("driver.path")).concat("/chromedriver_mac.exe"));
 				}
-				driver = new ChromeDriver();
+
+				// Add Proper Options and Caps to bypass Certs in Chrome
+				ChromeOptions options = new ChromeOptions();
+				options.addArguments("allow-insecure-localhost");
+				DesiredCapabilities caps = DesiredCapabilities.chrome();
+				caps.setCapability(ChromeOptions.CAPABILITY, options);
+				caps.setCapability("acceptInsecureCerts", true);
+				driver = new ChromeDriver(caps);
+
 				driver.get(Config.getConfigValue("url.path"));
 				driverMap.put(Thread.currentThread().getId(), driver);				
 				break;

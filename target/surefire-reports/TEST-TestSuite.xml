@@ -1,96 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="72.329" tests="4" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="44.548" tests="4" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="sun.desktop" value="windows"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="exec.mainClass" value="com.postman.main.Postman"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="java.specification.version" value="1.8"/>
-    <property name="log4j.configurationFile" value="src\main\resources\log4j2.xml"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\strego\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.9.1.20180912-1600\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.specification.version" value="15"/>
+    <property name="log4j.configurationFile" value="src/main/resources/log4j2.xml"/>
+    <property name="webdriver.chrome.driver" value="/Users/trent/Documents/GitHub/SeanTest/src/main/resources/drivers//chromedriver_mac.exe"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="user.variant" value=""/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="user.timezone" value="America/Chicago"/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="user.country" value="US"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/Moncton"/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/conf"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="os.name" value="Mac OS X"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dbrowser=firefox -Dexec.mainClass=com.postman.main.Postman -Dpackage=com.postman.test.selenium -B clean compile exec:java test"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/15.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean compile exec:java test -Dexec.mainClass=com.postman.main.Postman -Dpackage=com.postman.test.selenium -Dbrowser=chrome"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.3_1/libexec"/>
     <property name="package" value="com.postman.test.selenium"/>
-    <property name="maven.home" value="C:\Users\strego\git\test\EMBEDDED"/>
-    <property name="surefire.test.class.path" value="C:\Users\strego\git\test\target\test-classes;C:\Users\strego\git\test\target\classes;C:\Users\strego\.m2\repository\org\apache\logging\log4j\log4j-core\2.8.2\log4j-core-2.8.2.jar;C:\Users\strego\.m2\repository\org\apache\logging\log4j\log4j-api\2.8.2\log4j-api-2.8.2.jar;C:\Users\strego\.m2\repository\org\testng\testng\7.0.0-beta7\testng-7.0.0-beta7.jar;C:\Users\strego\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\strego\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\strego\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\strego\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\strego\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\strego\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\strego\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\strego\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\strego\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\strego\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\strego\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\strego\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\strego\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\strego\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\strego\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\strego\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\strego\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\strego\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\strego\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\strego\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\strego\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\strego\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\strego\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\strego\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\strego\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\strego\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\strego\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\strego\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\strego\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="surefire.test.class.path" value="/Users/trent/Documents/GitHub/SeanTest/target/test-classes:/Users/trent/Documents/GitHub/SeanTest/target/classes:/var/root/.m2/repository/org/apache/logging/log4j/log4j-core/2.8.2/log4j-core-2.8.2.jar:/var/root/.m2/repository/org/apache/logging/log4j/log4j-api/2.8.2/log4j-api-2.8.2.jar:/var/root/.m2/repository/org/testng/testng/7.0.0-beta7/testng-7.0.0-beta7.jar:/var/root/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/var/root/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/var/root/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/var/root/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/var/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar:/var/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/var/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar:/var/root/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/var/root/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/var/root/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/var/root/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/var/root/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/var/root/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/var/root/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/var/root/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/var/root/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/var/root/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/var/root/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/var/root/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/var/root/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/var/root/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/var/root/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/var/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/var/root/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/var/root/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/var/root/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/var/root/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/var/root/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.21.0/surefire-testng-utils-2.21.0.jar:/var/root/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.21.0/surefire-grouper-2.21.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\strego"/>
+    <property name="user.home" value="/var/root"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
-    <property name="basedir" value="C:\Users\strego\git\test"/>
-    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/15.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/trent/Documents/GitHub/SeanTest"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
-    <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="1.8.0_144-b01"/>
-    <property name="user.name" value="strego"/>
-    <property name="path.separator" value=";"/>
-    <property name="os.version" value="10.0"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="file.encoding" value="Cp1252"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="15.0.1+9"/>
+    <property name="user.name" value="root"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="browser" value="firefox"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="localRepository" value="C:\Users\strego\.m2\repository"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="C:\Users\strego\AppData\Local\Temp\"/>
-    <property name="java.version" value="1.8.0_144"/>
-    <property name="user.dir" value="C:\Users\strego\git\test"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\strego\git\test"/>
-    <property name="webdriver.gecko.driver" value="C:\Users\strego\git\test/src/main/resources/drivers/\geckodriver.exe"/>
+    <property name="browser" value="chrome"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/var/root/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="user.dir" value="/Users/trent/Documents/GitHub/SeanTest"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/trent/Documents/GitHub/SeanTest"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_271/bin/server;C:/Program Files/Java/jre1.8.0_271/bin;C:/Program Files/Java/jre1.8.0_271/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Users\strego\AppData\Local\Drivers\chromedriver.exe;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\strego\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\strego\AppData\Local\Programs\Python\Python38-32\;C:\Users\strego\scoop\shims;C:\Users\strego\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\strego\AppData\Local\Programs\Python\Python36-32\;C:\Users\strego\AppData\Local\Microsoft\WindowsApps;C:\Users\strego\AppData\Local\GitHubDesktop\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Users\strego\apache-maven-3.6.1;C:\Users\strego\apache-maven-3.6.1\bin;C:\Program Files\Java\jdk1.8.0_144\;C:\Users\strego\AppData\Local\Drivers;C:\Users\strego\AppData\Local\Android\Sdk\platform-tools;C:\Users\strego\AppData\Local\Android\Sdk\tools;C:\Users\strego\AppData\Local\Android\Sdk\tools\bin;C:\Users\strego\gradle-5.6\bin;C:\Users\strego\scoop-master\bin;C:\Users\strego\scoop\apps\allure\current\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2019.3\bin;C:\Users\strego\.dotnet\tools;C:\Users\strego\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\strego\AppData\Roaming\npm;C:\Program Files\nodejs;C:\Users\strego\AppData\Local\Yarn\bin;C:\Users\strego\eclipse;;."/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="25.144-b01"/>
-    <property name="classworlds.conf" value="C:\Users\strego\app\dev\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6621996240694256525.tmp"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="52.0"/>
+    <property name="java.library.path" value="/Users/trent/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="java.vm.version" value="15.0.1+9"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/bin/m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/lib/jansi-native"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="testCreateNewPersonalWorkspace" classname="com.postman.test.selenium.SeleniumTest" time="10.157"/>
-  <testcase name="testReturnWorkspaceList" classname="com.postman.test.selenium.SeleniumTest" time="9.424"/>
-  <testcase name="testUpdateWorkspace" classname="com.postman.test.selenium.SeleniumTest" time="9.48"/>
-  <testcase name="testDeleteWorkspace" classname="com.postman.test.selenium.SeleniumTest" time="3.863">
-    <failure message="Element &lt;span class=&quot;icon-user-avatar-default pm-user-avatar-icon pm-user-avatar-icon-8 pm-icon-md&quot;&gt; is not clickable at point (1378,24) because another element &lt;div class=&quot;ReactModal__Overlay ReactModal__Overlay--after-open&quot;&gt; obscures it&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MHK-LENOVO1772&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210105180113, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 27948, moz:profile: C:\Users\strego\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: f6a6e90a-8b77-4771-bf1c-ec378f6e941e" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
-Element <span class="icon-user-avatar-default pm-user-avatar-icon pm-user-avatar-icon-8 pm-icon-md"> is not clickable at point (1378,24) because another element <div class="ReactModal__Overlay ReactModal__Overlay--after-open"> obscures it
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MHK-LENOVO1772', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210105180113, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 27948, moz:profile: C:\Users\strego\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: f6a6e90a-8b77-4771-bf1c-ec378f6e941e
-	at com.postman.test.selenium.SeleniumTest.testDeleteWorkspace(SeleniumTest.java:109)
-]]></failure>
-    <system-out><![CDATA[[INFO ] 2021-01-20 09:34:10.694 com.postman.test.selenium.SeleniumTest - Logging into Postman.
-[INFO ] 2021-01-20 09:34:10.697 com.postman.test.selenium.SeleniumTest - Here is the test data: TestData [yourWorkspacesTitle=Your Workspaces, createARequestText=Create a request, newWorkspaceName=Sean New Workspace, newWorkspaceSummary=Sean New Workspace Summary, newWorkspaceVisability=Personal, updateWorkspaceName=Sean Updated Workspace, updateWorkspaceSummary=Sean Updated Summary, updateWorkspaceDescription=Sean Updated Description]
-[INFO ] 2021-01-20 09:34:10.699 com.postman.test.selenium.SeleniumTest - Entering email or username.
-[INFO ] 2021-01-20 09:34:10.822 com.postman.test.selenium.SeleniumTest - Entering password.
-[INFO ] 2021-01-20 09:34:10.867 com.postman.test.selenium.SeleniumTest - Click sign in.
-[INFO ] 2021-01-20 09:34:16.201 com.postman.test.selenium.SeleniumTest - Start of Deleting Workspace Test.
-[INFO ] 2021-01-20 09:34:16.201 com.postman.test.selenium.SeleniumTest - And I delete the workspace.
-[INFO ] 2021-01-20 09:34:19.882 com.postman.test.selenium.SeleniumTest - And I log out of the application.
-]]></system-out>
-    <system-err><![CDATA[JavaScript error: https://st-ar.cdn.postman.com/requester-8e153723236a024c5762.min.js, line 1308: Error: ConfigurationService: Could not get config. Key does not exist
-]]></system-err>
-  </testcase>
+  <testcase name="testCreateNewPersonalWorkspace" classname="com.postman.test.selenium.SeleniumTest" time="2.031"/>
+  <testcase name="testReturnWorkspaceList" classname="com.postman.test.selenium.SeleniumTest" time="6.914"/>
+  <testcase name="testUpdateWorkspace" classname="com.postman.test.selenium.SeleniumTest" time="4.21"/>
+  <testcase name="testDeleteWorkspace" classname="com.postman.test.selenium.SeleniumTest" time="2.729"/>
 </testsuite>

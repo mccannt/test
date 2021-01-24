@@ -1,14 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 72.329 s <<< FAILURE! - in TestSuite
-testDeleteWorkspace(com.postman.test.selenium.SeleniumTest)  Time elapsed: 3.863 s  <<< FAILURE!
-org.openqa.selenium.ElementClickInterceptedException: 
-Element <span class="icon-user-avatar-default pm-user-avatar-icon pm-user-avatar-icon-8 pm-icon-md"> is not clickable at point (1378,24) because another element <div class="ReactModal__Overlay ReactModal__Overlay--after-open"> obscures it
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MHK-LENOVO1772', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210105180113, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 27948, moz:profile: C:\Users\strego\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: f6a6e90a-8b77-4771-bf1c-ec378f6e941e
-	at com.postman.test.selenium.SeleniumTest.testDeleteWorkspace(SeleniumTest.java:109)
-
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 44.548 s - in TestSuite
